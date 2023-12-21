@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getInfo(View view) {
-        Intent i = new Intent(MainActivity.this, InfoActivity.class);
+        Intent i = new Intent(MainActivity.this, AboutActivity.class);
         i.putExtra("count", this.count);
         startActivity(i);
     }

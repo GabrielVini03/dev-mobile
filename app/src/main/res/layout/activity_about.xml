@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#12162C"
-    android:backgroundTint="@color/white"
-    tools:context=".InfoActivity">
+    android:backgroundTint="@color/black"
+    tools:context=".AboutActivity">
 
     <TextView
         android:id="@+id/textCount"
         android:layout_width="345dp"
         android:layout_height="161dp"
-        android:text="Aplicativo Desenvolvido por Bruno Coelho Ribas, na disciplina de Dispositivos Móveis"
+        android:text="Aplicativo Desenvolvido por Gabriel Vinicius dos Santos Nascimento, na disciplina de Dispositivos Móveis"
         android:textAlignment="center"
-        android:textColor="#20c67a"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,8 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:text="Contador: "
-        android:textColor="#1d3d33"
+        android:text="Valor do Contador: "
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
